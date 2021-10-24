@@ -4,9 +4,9 @@ import time
 import pandas as pd
 from datetime import datetime
 
-def giris_yap(meeting_id):
+def giris_yap(meeting_id): #bizim zoom meetinglerinde şifre olmadığı için 2. bir argüman almıyoruz fonksiyonun içine ama sizinkiler şifreli ise "meeting_id"nin yanına "password" koyup aşağıda aynı şekilde tanımlarsanız sorunsuz çalışır.
     #Zoom uygulamasını açıyoruz.
-    subprocess.call(["C:/Users/Erogl/AppData/Roaming/Zoom/bin/Zoom.exe"])
+    subprocess.call(["C:/Users/.../Zoom/bin/Zoom.exe"]) #içerideki linki kendi pcnizde zoomun bulunduğu uzantıyı koyun.
     time.sleep(10)
 
     #Giris butonuna tıklatıyoruz.
@@ -33,7 +33,7 @@ def giris_yap(meeting_id):
     pyautogui.click()
 
 #Zamanlayıcıyı ayarlıyoruz.
-df = pd.read_csv("zamanlayici.csv")
+df = pd.read_csv("zamanlayici.csv") # zamanlama,meeting_id'ye karşılık gelecek şekilde başlamasını istediğiniz zamanı ve meeting kodunu giriyoruz.
 
 while True:
     now = datetime.now().strftime("%H:%M") #zaman dilimimizi saat:dakika olarak verdiğimizi belirtiyoruz.
@@ -41,7 +41,7 @@ while True:
         row = df.loc[df["zamanlama"] == now]
         m_id = str(row.iloc[0,1])
 
-        giris_yap("93279307629")
+        giris_yap(01231231234) # fonksiyonumuzu çağırıp çalıştırdığımız yer buraya kendi meeting_id'nizi yazın.
         time.sleep(40)
         print("Giriş Yapıldı!")
 
