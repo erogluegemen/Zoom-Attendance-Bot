@@ -3,9 +3,9 @@
 ### Neden yani?
 <hr>
 Neden zoom botu? <br>
-Üniversitemiz cumartesi gününe sabah 8 dersi koyduğu için ve bu ders İnkılap olduğu gibi katılımın da zorunlu olması bu botun doğmasına neden oldu.:partying_face::partying_face: 
+Üniversitemiz cumartesi gününe sabah 8 dersi koyduğu için ve bu ders İnkılap olduğu gibi katılımın da zorunlu olması bu botun doğmasına neden oldu. 
 <br>
-Sabahın 8'inde kalkıp derse gir diyip tekrar yatmanın ne anlamı var en iyisi hiç kalkmamak. :sleeping:
+Sabahın 8'inde kalkıp derse gir diyip tekrar yatmanın ne anlamı var en iyisi hiç kalkmamak. 
 <br>
 <br>
 <b>DipNot: Sevgili hocam, eğer bu botu görürseniz bireysel algılamayın bu bot akademik amaçla yapılmıştır.Gerçek şahışlar ile bir ilgisi yoktur. Eyer başı ma bi şey gelirse sorsmlusu gogle pleysıtordur.(Only for educational purpose gibisinden :p)</b>
