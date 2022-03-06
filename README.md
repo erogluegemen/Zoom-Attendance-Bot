@@ -19,7 +19,7 @@ Sabahın 8'inde kalkıp derse gir diyip tekrar yatmanın ne anlamı var en iyisi
 
 ### Uyarılar <br>
 <hr>
-1-) Kod uygulama bazında çalışıyor(Yani tarayıcıdan açtığınız zoom için çalışmaz ama o versiyonunu da yapıyorum şu an.)
+1-) Kod uygulama bazında çalışıyor(Yani tarayıcıdan açtığınız zoom için çalışmaz ama o versiyonu da gelecek(geldi!).)
 <br>
 2-) Kodlar görsel tanıma prensibine dayanarak otomasyonu sağlıyor o yüzden zoomu dark theme değil de white team kullanmanız gerekmekte.
 <br>
