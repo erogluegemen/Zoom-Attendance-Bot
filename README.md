@@ -21,7 +21,7 @@ Sabahın 8'inde kalkıp derse gir diyip tekrar yatmanın ne anlamı var en iyisi
 <hr>
 1-) Kod uygulama bazında çalışıyor(Yani tarayıcıdan açtığınız zoom için çalışmaz ama o versiyonu da gelecek(geldi!).)
 <br>
-2-) Kodlar görsel tanıma prensibine dayanarak otomasyonu sağlıyor o yüzden zoomu dark theme değil de white team kullanmanız gerekmekte.
+2-) Kodlar görsel tanıma prensibine dayanarak otomasyonu sağlıyor o yüzden zoomu dark theme değil de white theme kullanmanız gerekmekte.
 <br>
 
 ### Peki bu bot benim işime yarıyor mu? <br>
