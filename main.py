@@ -25,7 +25,7 @@ def giris_yap(meeting_id): #bizim zoom meetinglerinde şifre olmadığı için 2
     for btn in media_btn:
         pyautogui.moveTo(btn)
         pyautogui.click()
-        time.sleep(2)
+        time.sleep(3)
 
     #Son olarak katıl butonuna basıyoruz.
     join_btn = pyautogui.locateCenterOnScreen("join_btn.png")
@@ -38,6 +38,7 @@ df = pd.read_csv("zamanlayici.csv") # zamanlama,meeting_id'ye karşılık gelece
 while True:
     now = datetime.now().strftime("%H:%M") #zaman dilimimizi saat:dakika olarak verdiğimizi belirtiyoruz.
     if now in str(df["zamanlama"]):
+
         row = df.loc[df["zamanlama"] == now]
         m_id = str(row.iloc[0,1])
 
